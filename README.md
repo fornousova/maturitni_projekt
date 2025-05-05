@@ -130,7 +130,7 @@ Zisk je počítán jako rozdíl mezi skutečnou cenou další den a cenou při n
 | Verze | Vstupy           | Nejlepší val_loss | Nejvýnosnější akcie | Poznámka                                |
 |:------|:-----------------|:------------------|:--------------------|:----------------------------------------|
 | 1     | `Close`           | –                  | UNP (~198 USD)       | Jednodušší model, překvapivě dobrý výsledek |
-| 2     | OHLC + Volume     | DIS (0.03)          | GS (~216 USD)        | Vyšší přesnost, rozšířené vstupy         |
+| 2     | OHLC + Volume     | BA (0.00027)          | GS (~216 USD)        | Vyšší přesnost, rozšířené vstupy         |
 
 ---
 
@@ -139,10 +139,10 @@ Zisk je počítán jako rozdíl mezi skutečnou cenou další den a cenou při n
 Projekt ukazuje, že neuronové sítě typu LSTM lze úspěšně použít k predikci cen akcií. I jednoduchý model dokáže vytvořit ziskovou strategii. Rozšířením vstupních parametrů se podařilo zvýšit stabilitu výsledků.
 
 Možné směry rozšíření:
-- použití technických indikátorů (např. RSI, MACD)
-- zohlednění fundamentálních dat a zpráv
-- pokročilejší optimalizace hyperparametrů
-- nasazení dalších modelů (GRU, Transformer)
+- přidání sentimentální analýzy - zprávy a články
+- nasazení predikce v reálném čase
+- vyzkoušení jiných typů neuronových sítí
+- rozšíření na další trhy
 
 ---
 
