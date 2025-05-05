@@ -129,8 +129,8 @@ Zisk je počítán jako rozdíl mezi skutečnou cenou další den a cenou při n
 
 | Verze | Vstupy           | Nejlepší val_loss | Nejvýnosnější akcie | Poznámka                                |
 |:------|:-----------------|:------------------|:--------------------|:----------------------------------------|
-| 1     | `Close`           | –                  | MSFT (~78 USD)       | Jednodušší model, překvapivě dobrý výsledek |
-| 2     | OHLC + Volume     | DIS (0.03)          | DIS (~21 USD)        | Vyšší přesnost, rozšířené vstupy         |
+| 1     | `Close`           | –                  | UNP (~198 USD)       | Jednodušší model, překvapivě dobrý výsledek |
+| 2     | OHLC + Volume     | DIS (0.03)          | GS (~216 USD)        | Vyšší přesnost, rozšířené vstupy         |
 
 ---
 
